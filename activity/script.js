@@ -57,7 +57,8 @@ window.addEventListener("load",() => {
   
   if(storedSlideArr){
   //update slideArr
-  slideArr = JSON.parse(storedSlideArr);
+  slideArr = JSON.parse(storedSlideArr); 
+  
   
   //update currentSlideIndex
   currentSlideIndex = JSON.parse(window.localStorage.getItem("currentSlideIndex"));
